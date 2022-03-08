@@ -1,0 +1,239 @@
+.cart{
+    width: 100%;
+    height: 75px;
+    background-color: rebeccapurple;
+    position: sticky;
+    top: 0;
+}
+.cartWrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.B_name{
+    font-weight: bold;
+    font-size: 30px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.cartRight{
+    display: flex;
+}
+
+.cartIconContainer{
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+  color: whitesmoke;
+}
+
+.cartIconBag{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    color: white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    background-color:red;
+    display: flex;
+}
+.pageName{
+    margin: 10px;
+}
+.cartSection{
+    display: flex;
+}
+
+.shoppingCart{
+    margin-top: 20px;
+    width: 100%;
+    flex:1;
+    justify-content: space-between;
+
+}
+h1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: var(--main-color);
+}
+p {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    text-align: left;
+    color: var(--primary-color);
+  }
+.featuredItem{
+    height: 75%;
+    width: 75%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content:space-between;
+    /* align-items: center; */
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+.featuredItemImg img{
+    width: 11rem;
+  height: 11rem;
+  filter: drop-shadow(0rem 0.4rem 1rem #f1f7ff);
+  border-radius: 1rem;
+}
+i {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+.fa,
+.fas {
+    font-weight: 900;
+    display: grid;
+    place-items: center;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+  .addMinus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .addMinus button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .addMinus input {
+    width: 6rem;
+    height: 3rem;
+    border: 0.141rem solid var(--primary-color);
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    margin: 0 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .addMinus input:focus {
+    outline: none;
+  }
+  
+  .removeItem button {
+    border: none;
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: rebeccapurple;
+  }
+
+
+.featuredTitle{
+    font-style: 20px;
+}
+
+.featuredMoneyContainer{
+    margin: 10px 0px;
+}
+
+.featuredMoney{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.featuredMoneyRate{
+    display:flex;
+    margin-left: 20px;
+}
+
+.itemTotal {
+    margin: 4rem;
+    justify-content:space-between;
+  }
+.itemTotal h3 {
+    font-style: 100;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    text-transform: capitalize;
+    color: #606166;
+  }
+  
+  .itemTotal h3 span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    text-transform: capitalize;
+    color: #000000;
+    margin-left: 1rem;
+    align-items: center;
+  }
+  
+  .itemTotal button {
+    border: none;
+    font-size: 1rem;
+    padding: 1rem 2.6rem;
+    color: #fff;
+    background-color: rebeccapurple;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
+
+  .itemAddedToCart{
+    flex: 1;
+    height: fit-content;
+    margin: 35px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+  }
+
+ 
+
+.clear-cart {
+  border: none;
+  font-size: 1rem;
+  padding: 1rem 2.6rem;
+  color: #fff;
+  background-color: rebeccapurple;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+ }
